@@ -14,4 +14,5 @@ The parser expects the following
 - you need to have a "heartbeat" database in your influx
 - your influx is at 127.0.0.1 and does not require credentials
 - username tag is gilligan - change to your name
+  - this is so you can import multiple users and have them show in different series on the graph
 
