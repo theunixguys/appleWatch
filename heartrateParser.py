@@ -34,7 +34,7 @@ for line in contents:
        lastTime = mydtNanoSecs
        lastIncrement = mydtNanoSecs
 
-    payload1 = "rates,user=aaron rate=" + str(myHR) + " " + str(mydtNanoSecs)
+    payload1 = "rates,user=gilligan rate=" + str(myHR) + " " + str(mydtNanoSecs)
 
     r = requests.post(influxAPI, data=payload1)
     #print(r.headers)
